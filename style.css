@@ -1,0 +1,112 @@
+/*FONY IMPORTS*/
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Cinzel Bold'), local('Cinzel-Bold'), url(https://fonts.gstatic.com/s/cinzel/v9/8vIK7ww63mVu7gtzTUHuE2Za.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Cinzel Regular'), local('Cinzel-Regular'), url(https://fonts.gstatic.com/s/cinzel/v9/8vIJ7ww63mVu7gt79mT7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Satisfy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v10/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*NAVBAR*/
+.nav-item{
+  color: #ffffff;
+  font-family: "cinzel";
+  font-weight: bold;
+}
+
+/*PICTURE JUMBOTRON*/
+.jumbotron-fluid{
+  background-image: url("pictures/fabricback.png");
+  background-size: cover;
+  text-align: center;
+}
+.designtitle{
+  padding-top:200px;
+  font-family:"satisfy";
+  color:#ffffff;
+}
+.lead{
+  font-family: "cinzel";
+  font-weight: bold;
+  padding-top:30px;
+  padding-bottom:200px;
+  color:#ffffff;
+}
+
+/*DESIGNER DETAILS JUMBOTRON*/
+.jumbotron{
+  text-align:center;
+}
+.nametext{
+  font-family:"cinzel";
+  font-weight: bold;
+}
+.subtitle{
+  font-family:"cinzel";
+  font-size: 24px;
+}
+.hometext{
+  font-family:"roboto condensed";
+}
+
+/*CAROUSEL*/
+.carousel{
+  margin:auto;
+  height:500px;
+  width:500px;
+}
+/*3 ICON CARDS*/
+.icons{
+  padding:50px;
+}
+.card{
+  margin:auto;
+  border: none;
+}
+.card-heading{
+  text-align:center;
+  font-family: "cinzel";
+  font-weight:bold;
+
+}
+.card-text{
+ font-family: "roboto condensed";
+ text-align:center;
+}
+
+/*FOOTER*/
+.foottext{
+  font-family:"cinzel";
+  font-weight:bold;
+}
+.fab{
+  font-size:50px;
+  padding: 20px;
+  color:#000000;
+}
+.fa-facebook-square:hover{
+  color: #3B5998;
+}
+.fa-twitter-square:hover{
+  color:#1da1f2;
+}
+.fa-instagram:hover{
+  color:#dd2a7b;
+}
