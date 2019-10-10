@@ -32,7 +32,7 @@
 }
 
 /*PICTURE JUMBOTRON*/
-.jumbotron-fluid{
+.homejumbo{
   background-image: url("pictures/fabricback.png");
   background-size: cover;
   text-align: center;
@@ -90,6 +90,30 @@
  font-family: "roboto condensed";
  text-align:center;
 }
+/*CONTACT PAGE*/
+.contactjumbo{
+  background-image: url("pictures/dress-shop.jpg");
+  background-size: cover;
+}
+.contact-pic{
+  padding:200px;
+}
+.contact-title{
+  font-family: "cinzel";
+  font-weight:bold;
+  font-size:16px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.contact-details{
+  font-family: "roboto condensed";
+  font-size:12px;
+}
+.form-label{
+  font-size:16px;
+  font-family: "cinzel";
+}
+
 
 /*FOOTER*/
 .foottext{
@@ -97,7 +121,7 @@
   font-weight:bold;
 }
 .fab{
-  font-size:50px;
+  font-size:40px;
   padding: 20px;
   color:#000000;
 }

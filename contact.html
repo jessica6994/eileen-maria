@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- MY CSS-->
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <!--fontawesome4.7-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <!--fontawesome 5.0-->
+    <script src="https://kit.fontawesome.com/47471bad85.js" crossorigin="anonymous"></script>
+    <!--BOOTSTRAP4-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Eileen Maria Couture</title>
+  </head>
+
+  <body>
+
+<!-- NAVBAR-->
+<div class="container-fluid p-0">
+
+  <nav class="navbar sticky-top navbar-expand-lg bg-info navbar-light">
+    <!--brand-->
+    <a class="navbar-brand" href="./index.html">
+      <img src="pictures/eileenlogostraight.jpg" width="150" height="50" alt="logo" />
+    </a>
+    <!--toggler button-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--navbar links-->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" onclick="myAlert()" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light active" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<!--JUMBOTRON DRESS SHOP-->
+    <div class="container-fluid p-0">
+      <div class="jumbotron-fluid contactjumbo">
+        <h1 class="display-4 contact-pic"></h1>
+      </div>
+    </div>
+
+<!--OPENING TIMES-->
+    <div class="container">
+        <h2 class="contact-title text-center">Studio Opening Times<h2>
+        <p class="contact-details text-center">Monday: 08:00 - 18:00</p>
+        <p class="contact-details text-center">Tuesday: 08:00 - 18:00</p>
+        <p class="contact-details text-center">Wednesday: 08:00 - 18:00</p>
+        <p class="contact-details text-center">Thursday: 08:00 - 18:00</p>
+        <p class="contact-details text-center">Friday: 08:00 - 14:00</p>
+        <p class="contact-details text-center">Evenings: By Appointment Only</p>
+        <p class="contact-details text-center">Saturday: By Appointment Only</p>
+        <p class="contact-details text-center">Sunday: Closed</p>
+    </div>
+
+<!--CONTACT DETAILS-->
+    <div class="container">
+      <h2 class="contact-title text-center">Contact Details</h2>
+      <p class="contact-details text-center">123 Wedding Dress Drive<br/>Church Town<br/>Harrogate<br/>HG1 XYZ</p>
+      <p class="contact-details text-center">info@eileenmaria.com</p>
+      <p class="contact-details text-center">07123456789</p>
+    </div>
+
+<!--CONTACT FORM-->
+      <h2 class="contact-title text-center">Leave me a message</h2><br />
+
+    <div class="container d-flex justify-content-center">
+      <form class="">
+        <!--NAME-->
+        <div class="form-row">
+          <div class="form-group col-6">
+            <label for="inputFirstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="inputFirstName" placeholder="First Name" required>
+          </div>
+          <div class="form-group col-6">
+            <label for="inputLastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="inputFirstName" placeholder="Last Name" required>
+          </div>
+        </div>
+        <!--EMAIL-->
+          <div class="form-row">
+          <div class="form-group col-12">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+          </div>
+        </div>
+        <!--NUMBER & REGION SELECT & DAY-->
+        <div class="form-row">
+          <div class="form-group col-4">
+            <label for="inputNumber" class="form-label">Tel Number</label>
+            <input type="tel" class="form-control" id="inputNumber" placeholder="Number" required>
+          </div>
+          <div class="form-group col-4">
+            <label for="inputRegion" class="form-label">Where are you?</label>
+            <select id="inputRegion" class="form-control" required>
+              <option selected>Region</option>
+              <option>East Midlands</option>
+              <option>East of England</option>
+              <option>London</option>
+              <option>North East</option>
+              <option>North West</option>
+              <option>South East</option>
+              <option>South West</option>
+              <option>West Midlands</option>
+              <option>Yokrshire and the Humber</option>
+            </select>
+          </div>
+          <div class="form-group col-4">
+            <label for="inputDate" class="form-label">Wedding Day</label>
+            <input type="date" class="form-control" id="inputDate" placeholder="DD/MM/YYYY">
+          </div>
+        </div>
+        <!--MESSAGEBOX-->
+        <div class="form-row">
+          <div class="form-group col-12">
+            <label for="messageBox" class="form-label">Message</label>
+            <textarea class="form-control" required id="messageBox" rows="3">How can I help?</textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-info">Send</button>
+      </form>
+     </div>
+
+<!--FOOTER-->
+  <div class="container-fluid p-0">
+    <div class="navbar bottom bg-light">
+      <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+      <p class="foottext ml-auto">info@eileenmaria.com</p>
+    </div>
+  </div>
+
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
